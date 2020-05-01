@@ -8,24 +8,8 @@
     margin: auto;
 }
 
-@media screen and (max-width : 800px){
-    .proposalCont{
-        height: 750px;
-        width: 480px;
-        padding: 30px 15px;
-        background-image: url('../.././assets/proposalbg.jpg');
-        // background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        opacity: 0.7;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
-}
 
-@media screen and (max-width : 400px){
+@media screen and (max-width : 600px){
     .proposalCont{
         height: 500px;
         width: 350px;

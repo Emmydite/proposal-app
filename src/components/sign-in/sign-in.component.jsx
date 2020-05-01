@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faHeartbeat} from '@fortawesome/free-solid-svg-icons';
-//import {Redirect } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
 import {getUser} from '../auth/userauth';
@@ -17,17 +17,21 @@ const SignIn = () => {
 
   const {username, password} = userCreds;
 
+const history = useHistory();
 
 const handleSubmit = event => {
      event.preventDefault()
 
      if(username === 'vera' && password === '1234'){
          console.log(username);
-        
          getUser(username, password); 
-
-         setUserCreds({username : '', password : ''});    
-       
+        
+         setUserCreds({username : '', password : ''}); 
+         
+         setTimeout(()=> {
+          history.push("/proposal");
+         }, 1000);
+         
      }
      else{
 

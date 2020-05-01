@@ -61,55 +61,7 @@
  }
 }
 
-@media screen and (max-width : 800px){
-
-  .proposalblokCont{
-    width: 370px;
-    height: 80%;
-    margin: auto 10px;
-    padding: 20px 20px 20px 20px;
-  
-
- .proposalblok{
-  width: 300px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-
-    //align-items: center;
-   
-    .ringbox{
-     width: 240px;
-     height: 240px;
-     padding: 10px;
-     align-items: center;
-     margin: 5px 0;
-     overflow: hidden;
-     margin: auto;
-     background-image: url('../../assets/engageringbox2.jpeg');
-    }
-
-    .title {
-      margin: 10px 0;
-      size: 22px;
-      font-weight: bold;
-    }
-
-  
-    .buttons {
-      display: flex;
-      justify-content: space-between;
-    }
- }
-}
-
-}
-
-@media screen and (max-width : 400px){
+@media screen and (max-width : 600px){
 
   .proposalblokCont{
     width: 300px;
