@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import HomePage from './pages/homepage/homepage.component';
+import ProposalPage from './pages/proposalpage/proposalpage.components';
+//import {getUser} from  './components/auth/userauth';
+import UserContext from './context/user/user.context';
+// import './App.css';
 
-function App() {
+class App extends React.Component {
+  constructor(){
+    super();
+
+    this.state = {
+      username : 'Okorie Veronica Adannaya'
+    }
+  }
+
+  // componentDidMount(){
+  //   const user = getUser();
+  //   console.log('from App ' + user);
+  //   this.setState({username : user})
+  // }
+
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+    <BrowserRouter>
+     <Switch>
+       <Route exact path='/' component={HomePage}/>
+       
+       <UserContext.Provider value={this.state.username}>
+       <Route exact path='/proposal' component={ProposalPage}/>
+       </UserContext.Provider>
+       
+     </Switch>
+     </BrowserRouter>
+  </div>
   );
+}
 }
 
 export default App;

@@ -1,0 +1,47 @@
+.homepageCont{
+    height: 520px;
+    padding: 50px;
+    background-image: url('../.././assets/flowersigninbg.png');
+    // background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width : 800px){
+    .homepageCont{
+        height: 750px;
+        width: 480px;
+        padding: 30px 15px;
+        background-image: url('../.././assets/flowersigninbg.png');
+        // background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.7;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 400px){
+    .homepageCont{
+        height: 600px;
+        width: 350px;
+        padding: 30px 15px;
+        background-image: url('../.././assets/flowersigninbg.png');
+        // background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.7;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
