@@ -11,7 +11,7 @@ class App extends React.Component {
     super();
 
     this.state = {
-      username : 'Okorie Veronica Adannaya'
+      username : 'Gal'
     }
   }
 
@@ -27,7 +27,7 @@ class App extends React.Component {
     <BrowserRouter>
      <Switch>
        <Route exact path='/' component={HomePage}/>
-       
+
        <UserContext.Provider value={this.state.username}>
        <Route exact path='/proposal' component={ProposalPage}/>
        </UserContext.Provider>
