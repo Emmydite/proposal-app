@@ -29,7 +29,7 @@ const Proposal = () =>  {
         <div className='proposalblokCont'>
         <div className='proposalblok'>
             
-          <h5 className='title' id='titl'>       
+           <h5 className='title' id='titl'>       
                <Typing user={user}/> 
             </h5>
           

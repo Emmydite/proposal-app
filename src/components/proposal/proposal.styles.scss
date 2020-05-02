@@ -66,10 +66,11 @@
   .proposalblokCont{
     width: 80%;
     height: 80%;
-    margin: auto 2px;
+    margin: 4px;
     padding: 10px 20px 10px 20px;
     background-color: #ffff;
     opacity: 0.9;
+    border-radius: 30px;
   
 
    .proposalblok{
@@ -94,10 +95,14 @@
      background-image: url('../../assets/engageringbox2.jpeg');
     }
 
-    .title {
-      margin: 10px 0;
+    #titl {
+      margin: 25px 0;
       size: 22px;
       font-weight: bold;
+    }
+
+    #titl p{
+      margin: 0;
     }
 
   
@@ -112,10 +117,11 @@
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
-    font-size: 16px;
+    font-size: 12px;
     text-align: left;
     margin-bottom: 50px;
     margin-top: 0px;
+    margin-left: 0px;
     }
   }
 

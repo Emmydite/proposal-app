@@ -48,7 +48,7 @@
     opacity: 0.9;
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin: 5px;
     border-radius: 50px 10px;
     
 
@@ -68,6 +68,15 @@
       }
     
      }
+
+     .icon p{
+      color: red;
+      padding: 10px;
+      font-size: 12px;
+      text-align: left;
+      margin-left: 10px;
+      margin-top: 40px;
+    }
 
 }
 }
