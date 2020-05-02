@@ -1,5 +1,5 @@
 .proposalCont{
-    height: 585px;
+    // height: 585px;
     padding: 20px;
     background-image: url('../.././assets/proposalbg.jpg');
     background-repeat: no-repeat;
@@ -8,11 +8,15 @@
     margin: auto;
 }
 
+@media screen and (min-height : 550px){
+    .proposalCont{
+        height: 585px;
+    }
+}
+
 
 @media screen and (max-width : 720px){
     .proposalCont{
-        height: 100%;
-        width: 100%;
         padding: 10px 15px;
         background-image: url('../.././assets/proposalbg.jpg');
         // background-attachment: fixed;

@@ -1,5 +1,5 @@
 .homepageCont{
-    height: 520px;
+    // height: 520px;
     padding: 50px;
     background-image: url('../.././assets/flowersigninbg.png');
     // background-attachment: fixed;
@@ -11,12 +11,14 @@
     align-items: center;
     margin: auto;
 }
-
+@media screen and (min-height : 550px){
+    .homepageCont{
+         height: 520px;
+    }
+}
 
 @media only screen and (max-width : 720px){
     .homepageCont{
-        height: 100%;
-        width: 100%;
         padding: 30px 15px;
         background-image: url('../.././assets/flowersigninbg.png');
         // background-attachment: fixed;

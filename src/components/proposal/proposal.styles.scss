@@ -64,9 +64,9 @@
 @media screen and (max-width : 720px){
 
   .proposalblokCont{
-    width: 80%;
-    height: 80%;
-    margin: 4px;
+    width: 90%;
+    //height: 90%;
+    margin: auto;
     padding: 10px 20px 10px 20px;
     background-color: #ffff;
     opacity: 0.9;
@@ -87,11 +87,11 @@
    
     .ringbox{
      width: 240px;
-     height: 240px;
+    //  height: 240px;
      padding: 10px;
      align-items: center;
      overflow: hidden;
-     margin:  5px auto 20px auto;
+    //  margin:  5px auto 0px auto;
      background-image: url('../../assets/engageringbox2.jpeg');
     }
 
@@ -109,17 +109,17 @@
     .buttons {
       display: flex;
       justify-content: space-between;
+      margin-top: 20px;
       }
    }
 
    .icon p{
     color: red;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 30px;
     font-size: 12px;
     text-align: left;
-    margin-bottom: 50px;
     margin-top: 0px;
     margin-left: 0px;
     }
