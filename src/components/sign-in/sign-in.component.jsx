@@ -22,7 +22,7 @@ const history = useHistory();
 const handleSubmit = event => {
      event.preventDefault()
 
-     if(username === 'vera' && password === '1234'){
+     if(username === 'steve' && password === '1234'){
          console.log(username);
          getUser(username, password); 
         

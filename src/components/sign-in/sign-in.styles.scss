@@ -38,22 +38,22 @@
 }
 
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 720px){
 
   .signinCont{
-    width: 300px;
-    height: 65%;
-    padding: 30px 20px 20px 20px;
+    width: 80%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
     background-color: #ffff;
     opacity: 0.9;
     align-items: center;
     text-align: center;
-    margin: auto 3px;
+    margin: auto;
     border-radius: 50px 10px;
     
 
   .sign-in {
-      width: 280px;
+      width: 90%;
       margin: auto;
       padding: 10px;
       // display: flex;
@@ -64,7 +64,7 @@
       }
 
       h2{
-        font-size: 20px;
+        font-size: 19px;
       }
     
      }
